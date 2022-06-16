@@ -1,7 +1,7 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - init: brew tap dart-lang/dart
-    command: brew install dart
+  - init: "install dart"
+    command: brew tap dart-lang/dart && brew install dart
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
